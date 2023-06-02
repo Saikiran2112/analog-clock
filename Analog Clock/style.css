@@ -1,0 +1,46 @@
+#myclock
+{
+  position:relative;
+  background-color: blue;
+  height:70vh;
+  width:70vh;
+  margin-top:80px;
+  margin-left:450px;
+  background:url("download.png") no-repeat ;
+  background-size:cover;
+
+
+}
+#hours,#minutes,#seconds
+{
+  position:absolute;
+  transform-origin: bottom;
+  background: #000;
+  border-radius: 7px;
+}
+#hours
+{
+  height:28%;
+  width:2%;
+  top:24%;
+  left:48%;
+
+
+
+}
+#minutes
+{
+  height:32%;
+  width:2%;
+  top:21%;
+  left:48%;
+
+}
+#seconds
+{
+  height:37%;
+  width:2%;
+  top:15%;
+  left:48%;
+
+}
